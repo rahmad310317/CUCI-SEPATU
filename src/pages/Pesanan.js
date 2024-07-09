@@ -1,10 +1,7 @@
-import React from "react";
-import SinglePesanan from "./Cleaning";
 import { Link } from "react-router-dom";
-import { BsArrowRight, BsArrowLeft } from "react-icons/bs";
+import { BsArrowLeft } from "react-icons/bs";
 import Cleaning from "./Cleaning";
 import Repair from "./Repair";
-import fullService from "./fullService";
 
 
 

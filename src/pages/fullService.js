@@ -1,11 +1,9 @@
 import React, { useState } from 'react';
 import { RiDeleteBin2Line } from "react-icons/ri";
-import { FaRegEdit } from "react-icons/fa";
 
 const FullService = ({ fullService, onDelete, onToggle, select }) => {
 
   console.log(fullService)  
-  // const [editing, setEditing] = useState(false);
   const [isHovering, setIsHovering] = useState(false);
 
   const handleMouseOver = () => {
@@ -43,10 +41,10 @@ const FullService = ({ fullService, onDelete, onToggle, select }) => {
         </div>
       </div>
 
-      <div className="bg-gray-400 w-full flex justify-between py-1 px-2 rounded-b-md">
+      {/* <div className="bg-gray-400 w-full flex justify-between py-1 px-2 rounded-b-md">
         <h3 className="text-right text-black">Harga :</h3>
         <h3 className="text-right text-black">Rp.25000</h3>
-      </div>
+      </div> */}
     </div>
   );
 };
